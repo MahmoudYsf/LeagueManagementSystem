@@ -75,3 +75,4 @@ SELECT s.SponsorName, s.SponsorType, o.Name FROM Sponsors s JOIN SponserShips ss
 SELECT * FROM Merchandises;
 -->33 -The team with highest shirt price
 SELECT ProductName FROM Merchandises WHERE Price =(SELECT MAX(Price) FROM Merchandises);
+select * from Players;
